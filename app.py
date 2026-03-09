@@ -1,4 +1,5 @@
 # Python code
 import os
-print(os.listdir("lakd"))
-# new file created
+files = os.listdir(".")
+for file in files:
+    print(f"{file}")
